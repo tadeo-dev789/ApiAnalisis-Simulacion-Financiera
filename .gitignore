@@ -1,0 +1,33 @@
+# --- Entornos Virtuales ---
+# Ignora la carpeta del entorno virtual
+venv/
+*.venv/
+env/
+.virtualenv/
+
+# --- Variables de Entorno ---
+# ¡MUY IMPORTANTE! Nunca subas tus claves de API
+.env
+.env.*
+
+# --- Python & Pycache ---
+# El usuario pidió ignorar pycache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Archivos de Build/Dist (si decides empaquetar) ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Archivos de Sistema Operativo (macOS, Windows) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Archivos de IDEs (VSCode, PyCharm) ---
+.vscode/
+.idea/
